@@ -10,7 +10,20 @@ for (let i = 0; i < lunchArray.length; i++) {
     longestWord = lunchArray[i];
   }
 }
+// 2) Print length of longest word
+console.log(longestString);
+
+// 3) Print longest word
 console.log(longestWord);
-//2) I'll be needing the longestString variable to keep count of the strings
+
+//Which other varibles will you be needing?
+//I'll be needing the longestString variable to keep count of the strings
 //with longest length. Another variable added is the longestWord to return the
 //string with the longest length.
+
+// 4)
+let lunchArr = ["Burger Salad Lasagna Sushi Meatloaf"];
+let string = lunchArr.toString();
+let newLunchArr = string.split(" ");
+
+console.log(newLunchArr);
