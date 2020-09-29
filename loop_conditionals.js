@@ -27,3 +27,15 @@ let string = lunchArr.toString();
 let newLunchArr = string.split(" ");
 
 console.log(newLunchArr);
+
+// B)
+let oddArray = [];
+
+function oddPosition(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (i % 2 === 1) {
+      oddArray.push(arr[i]);
+    }
+  }
+  return oddArray.toString();
+}
