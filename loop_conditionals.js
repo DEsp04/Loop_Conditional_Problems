@@ -39,3 +39,19 @@ function oddPosition(arr) {
   }
   return oddArray.toString();
 }
+
+// C) ****
+function factorial(num) {
+  if (num === 0) {
+    return 1;
+  } else if (num < 0) {
+    return undefined;
+  }
+
+  let ans = num;
+
+  while (num < 1) {
+    ans *= i;
+  }
+  return ans;
+}
