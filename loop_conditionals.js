@@ -48,10 +48,11 @@ function factorial(num) {
     return undefined;
   }
 
-  let ans = num;
+  let result = num;
 
-  while (num < 1) {
-    ans *= i;
+  while (num > 1) {
+    num--;
+    result *= num;
   }
-  return ans;
+  return result;
 }
