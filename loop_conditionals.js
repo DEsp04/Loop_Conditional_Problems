@@ -40,7 +40,7 @@ function oddPosition(arr) {
   return oddArray.toString();
 }
 
-// C) ****
+// C)
 function factorial(num) {
   if (num === 0) {
     return 1;
@@ -55,4 +55,22 @@ function factorial(num) {
     result *= num;
   }
   return result;
+}
+
+// D)
+
+let mpg;
+
+if (mpg <= 10) {
+  console.log("gas guzzler");
+} else if (mpg >= 11 && mpg <= 16) {
+  console.log("Planet still frowns upon this, and so does your wallet");
+} else if (mpg >= 21 && mpg <= 29) {
+  console.log("Atmosphere smiles at your decision");
+} else if (mpg >= 30 && mpg <= 35) {
+  console.log("Not many gas stops will be taken");
+} else if (mpg === 120) {
+  console.log("If you are using the Tom Ogle fuel system, props");
+} else {
+  console.log("The fish of the sea smile at your conservation");
 }
